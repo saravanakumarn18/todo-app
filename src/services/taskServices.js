@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiUrl = "http://localhost:5000/api/tasks";
+const apiUrl = "https://todo-backend-tbq9.onrender.com/api/tasks";
 
 export function getTasks() {
     return axios.get(apiUrl);
